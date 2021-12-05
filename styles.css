@@ -1,0 +1,107 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: rgb(52, 58, 64);
+}
+
+/* PAGE NAVIGATION */
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* JUMBOTRON */
+.jumobotron-index-link, .jumobotron-contactform {
+    background-image: url("skin_side_up.png");
+    padding-top: 1.0rem;
+    padding-bottom: 2.0rem;
+    text-align: left;
+    margin-bottom: 1.0rem;
+}
+
+/* HEADERS FOR MAIN CONTENT */
+.contact-header, .contact-footer, .services-header, .about-header {
+    text-align: center;
+    background-image: url("skin_side_up.png");
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+    margin-top: 1.0rem;
+}
+.about-section {
+    background-image: url("skin_side_up.png");
+    padding-top: 1.0rem;
+    padding-bottom: 1.0rem;
+    margin-bottom: 1.0rem;
+}
+
+/* FOOTER START */
+.footertext {
+    font-size: 14px;
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footerlinks {
+    font-size: 16px;
+}
+.footer {
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+    margin-top: 1.0rem;
+}
+/* FOOTER END */
+
+a:hover  {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+.marketing-cards  {
+    margin-bottom: 1.0rem;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("skin_side_up.png");
+}
+.product-card {
+    opacity: 0.5;
+}
+.product-card:hover {
+    opacity: 1.0;
+}
+.marketing p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+.product-link, .btn-success, .btn-homepage  {
+    color: white;
+    background-color: rgb(86, 182, 172);
+    border: hidden;
+}
+hr {
+    background-color: rgb(86, 182, 172);
+    height: 0.8px; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.index-photo    {
+    margin-top: 1.0rem;
+}
+p, h1, h2, h3, h4, h5, h6, a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+
